@@ -22,7 +22,7 @@ export default function Chat() {
 					<Message key={message.id} message={message}/>
 				))}
 			</div>
-			<div className="mb-10 text-white z-50 text-center md:mb-20" ref={endOfMessagesRef}>
+			<div className="mb-20 vs text-white z-50 text-center md:mb-[11rem]" ref={endOfMessagesRef}>
 			UP TO DATE 🚀!
 			<hr className="hrr"/>
 			</div>

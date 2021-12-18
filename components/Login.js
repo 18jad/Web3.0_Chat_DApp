@@ -151,8 +151,8 @@ function Login() {
 		className = "flex flex-col absolute z-10 items-center justify-center mainBox w-full ">
 		{!(isAuthenticating) ? 
 		<div className="">
-		<div className="flex flex-col items-center justify-center logBox relative">
-		<h1 className="mt-[-60px] text-4xl  text-white titleBox w-full text-center p-4 		font-effect-neon">WELCOME TO THE METAVERSE</h1>
+		<div className="flex flex-col items-center justify-center mainBox logBox relative">
+		<h1 className="mt-[-60px] text-4xl  text-white titleBox w-full text-center p-4 	font-effect-neon">WELCOME TO THE METAVERSE</h1>
 		{(logInput) ?
 		<div id="pp">
 			<Image
